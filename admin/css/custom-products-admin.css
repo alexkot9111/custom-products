@@ -1,0 +1,15 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#cost_new_field { width: 100%; }
+#in_stock_new_field { margin: 5px; margin-left: 0; }
+.attribute-container { width: 100%; }
+.attribute-container .attribute-input { width: 30%; margin: 10px; }
+.attribute-container .attribute-button { margin: 5px; cursor: pointer; }
+
+@media (max-width: 1200px){ 
+	.attribute-input { width: 100%; margin: 0; } 
+	.attribute-button { margin-left: 0; }
+}
